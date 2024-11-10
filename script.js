@@ -156,4 +156,12 @@ Reset.addEventListener('click', (event) => {
     redCar.style.width = `${50}px`;
     redCar.style.right = `${205}px`;
     redCar.style.top = `${60}px`;
+
+    body.style.backgroundColor = 'black'
+    carPicked.innerHTML = '?'
+
+    title.style.color = 'white';
+    obv.style.color = 'white';
+    carPicked.style.color = 'white';
+    inMoment = 0
 })
